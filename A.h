@@ -4,7 +4,7 @@ class A
 {
 public:
 	static int get_sim() { return sim; }
-	void set_sim(int sim_) { sim = sim_; }
+	static void set_sim(int sim_) { sim = sim_; }
 private:
 	static int sim;
 };

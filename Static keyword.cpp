@@ -2,8 +2,7 @@
 int main()
 {
     std::cout << "sim=" << A::get_sim() << '\n';
-    A a;
-    a.set_sim(23);
+    A::set_sim(99);
     std::cout << "sim=" << A::get_sim() << '\n';
 }
 
