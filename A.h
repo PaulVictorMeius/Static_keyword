@@ -8,6 +8,7 @@ public:
 	static int get_star(){ return star; }
 	static void printValues(){ std::cout << "sim = " << sim << " and star = " << star << '\n'; }
 	/*static*/ int f() { return m; }//cannot access m if static
+	int g() { return sim; }//can access static member
 private:
 	static int sim;
 	static const int star = 5;
