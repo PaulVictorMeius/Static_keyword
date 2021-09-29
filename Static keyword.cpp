@@ -9,5 +9,7 @@ int main()
     A a;
     std::cout << "m=" << a.f() << '\n';
     std::cout << "again sim=" << a.g() << '\n';
+    /*foo();
+    std::cout << i << '\n';*/
 }
 
