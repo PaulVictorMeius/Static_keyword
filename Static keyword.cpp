@@ -1,4 +1,5 @@
 #include "A.h"
+#include "my_strlen.h"
 int main()
 {
     std::cout << "sim=" << A::get_sim() << '\n';
@@ -11,5 +12,7 @@ int main()
     std::cout << "again sim=" << a.g() << '\n';
     /*foo();
     std::cout << i << '\n';*/
+    const char* str = "Vasilica Dancila";
+    std::cout << "Size of str is " << my_strlen(str) << '\n';
 }
 
