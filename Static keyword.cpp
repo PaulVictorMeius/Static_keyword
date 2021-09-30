@@ -1,4 +1,4 @@
-#include "A.h"
+﻿#include "A.h"
 #include "my_strlen.h"
 int main()
 {
@@ -14,5 +14,7 @@ int main()
     std::cout << i << '\n';*/
     const char* str = "Vasilica Dancila";
     std::cout << "Size of str is " << my_strlen(str) << '\n';
+    const wchar_t* w_str = L"对不起";
+    std::cout << "Size of w_str is " << w_my_strlen(w_str) << '\n';
 }
 
